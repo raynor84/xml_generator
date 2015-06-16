@@ -1,0 +1,39 @@
+XmlTranslator
+		appendTemplate()
+	parseXML()
+		getTemplate()
+		getXMLData()
+		getNode()
+		applytemplate()
+		createOutput()	
+		
+		
+Tabelle
+	addCell
+			
+Zelle
+	__construct(x,y, node)
+	setFormat()
+	setValue()
+	setAlign()
+	setColspan()
+	setRowspan()
+	
+Publikation
+    |
+    |
+    -
+Bundesanzeiger
+    createTableNode()
+    createTableHead()
+    createTableBody()
+    createCellNode()
+
+    
+
+(!(t1 || t2))
+0 0		1
+1 0 	0
+0 1		0
+1 1		0
+

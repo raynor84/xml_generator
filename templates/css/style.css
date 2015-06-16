@@ -1,0 +1,11 @@
+#entries {
+    width:100%;
+    background-color:lightblue;
+    border-bottom: 2px solid white;
+}
+#entries:hover {
+    background-color: lightgoldenrodyellow;
+}
+thead { 
+	background-color: #lightgrey;
+}

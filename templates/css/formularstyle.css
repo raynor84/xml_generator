@@ -1,0 +1,120 @@
+/* Schritt 1 - Basisgestaltung */ 
+html, body, form, fieldset, legend  {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 720px;
+  font-family: Georgia, "Times New Roman", Times, serif; 
+  font-size: 13px;
+  background-color: white; 
+  color: black;
+  margin: 10px auto; 
+}
+
+form#xmldetail {
+  width: 700px; 
+  background: #f3c600;
+  border-radius: 5px; 
+  padding: 20px;
+  margin: auto;   
+} 
+
+/* Schritt 2 - fieldset und div */ 
+fieldset {
+  border: none; 
+  margin-bottom: 10px; 
+} 
+fieldset fieldset { margin: 0; }
+legend {
+  color: black; 
+  font-size: 16px; 
+  font-weight: bold; 
+  padding-bottom: 10px; 
+}
+
+form div {
+  background: #F9E380; 
+  border: 2px solid #ffffdd; 
+  border-radius: 5px; 
+  line-height: 30px;
+  padding: 5px 10px;
+  margin-bottom: 5px; 
+}
+form div div{
+    border: 0px;
+}
+
+/* Schritt 3 - Beschriftung */ 
+label {
+  float: left; 
+  width: 110px;
+  text-align: right; 
+  cursor:pointer;  
+  margin-right: 10px; 
+} 
+label.nofloat {
+  float: none;
+  width: auto;
+  text-align: left;   
+}
+fieldset fieldset {
+  border: 2px solid #ffffdd; 
+}
+fieldset fieldset legend {
+  float: left; 
+  width: 110px;
+  text-align: right;
+  font-size: 13px; 
+  font-weight: normal; 
+  padding-bottom: 0; 
+  margin: 0 10px 0 0;
+}
+
+
+/* Schritt 4 - Feinheiten */ 
+input, textarea, select { 
+  color: #333;
+  font-style: italic;
+  font-size: 13px;  
+  font-family: Georgia, "Times New Roman", Times, serif;  
+  background: white; 
+  border: none; 
+  border-radius: 3px; 
+  padding: 5px; 
+  outline: none; 
+  width: 400px; 
+}
+input:focus, textarea:focus { background: #eaeaea; }
+
+.anrede input {
+  width: auto; 
+  background: transparent; 
+} 
+.land option { margin-bottom: 3px; }
+.anzahl input {width: 40px; }
+.agb input { 
+  width: auto; 
+  margin-left: 120px; 
+  background: transparent; 
+}
+.agb a { color: black; }
+
+/* Schritt 5 - der Button zum Abschicken */ 
+button {
+  width: 300px; 
+  background: #b80000;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  margin: auto;
+}
+button:hover {
+  background: #d90000; 
+  cursor: pointer; 
+}

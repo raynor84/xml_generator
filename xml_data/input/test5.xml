@@ -1,0 +1,162 @@
+<Root>
+<Textabschnitt>
+<A>            <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="15" aid:tcols="5">
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <THEAD_left>in Mio. €</THEAD_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <THEAD_right>30.09.2014*</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <THEAD_right>30.09.2013</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left_bold>Risikodeckungsmasse </TBODY_left_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right_bold>1.609,2</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right_bold>1.528,1</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left>abzüglich regulatorisch erforderliches Kapital</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>– 943,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>– 798,1</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left_bold>Freie Risikodeckungsmasse</TBODY_left_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right_bold>665,4 </TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right_bold>730,0</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left> </TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right> </TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left_bold>Risiken</TBODY_left_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right> </TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left>Kreditrisiken</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>150,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>87,7</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left>Marktrisiken (inkl. Beteiligungsrisiko)</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>132,9</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>147,6</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left>Liquiditätsrisiko</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>24,9</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>37,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left>Operationelles Risiko</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>61,9</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>60,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left>Pensionsrisiko</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>92,3</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>78,5</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left>Geschäftsrisiko</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>28,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right>34,1</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left_bold>Ökonomisch erforderliches Kapital</TBODY_left_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right_bold>490,8</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right_bold>445,7</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164">
+                    <TBODY_left_bold>Ausnutzung der freien Risikodeckungsmasse (in %)</TBODY_left_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right_bold>73,8</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+                    <TBODY_right_bold>61,1</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="289.70078740121164"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"/>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"/>
+            </Tabelle>
+</A>
+</Textabschnitt>
+</Root>
