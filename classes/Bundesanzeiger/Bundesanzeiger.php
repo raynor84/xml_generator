@@ -108,15 +108,81 @@ class Bundesanzeiger {
         //check if large Table
         if(!$this->checkifLargeTable()) {
         	return;
-        }       
-        //first table is equal to processing table
-        //do
-            //if deletable delete last column of procesing table and add it to next table.
-            //if processing table <= maxColls
-                //set table[] to processing_table
-                //if next table > maxColls
-                    //set processing table to next table.
-        //while processing table > maxColls 
+        }
+        
+        $max_x = $this->table->getMaxX();
+        $ben_tabellen = ceil($this->table->getMax() / self::maxColls);
+        
+        if($ben_tabellen = 1) {
+           //do nothing no splitting necessary
+        } else if($ben_tabellen = 2) {
+            $table1;
+            $table2;
+            $t1_max;
+            $t2_max;
+            $splittableColumns = $this->getSplittablesColumns();
+            foreach($splittableColumns as $x) {
+                $t1_max = $x;
+                $t2_max = $max_x - $x;
+                if(($t1_max > self::maxColls)&&($t2_max > self::maxColls)) {
+                    continue;
+                } else {
+                    break;
+                }
+                
+            }
+            //Split Table with position $t1_max and $t2_max;
+            
+            
+        } else if($ben_tabellen = 3) {
+            $table1;
+            $table2;
+            $table3;
+            $splittableColumns = $this->getSplittablesColumns();
+            foreach($splittableColumns as $x) {
+                $t1_max = $x;
+                $t2_max;
+                $t3_max;
+            }
+            //split table with Position t1, t2, t3_max.
+            
+        } else {
+            die("Tabelle muss anscheinend in mehr als 3 Teile aufgeteilt werden. Bitte überprüfen Sie, ob die Tabelle doch in 3 Tabellen teilbar ist.");
+        }
+        
+        
+    }
+    
+    
+    private function getSplittablesColumns() {
+        $this->table = new Tabelle();
+        $zelle = new Zelle();
+        $zellen = $this->table->getCells();
+        $max_x = $this->table->getMaxX();
+        $splittableColumns = array();
+        
+        for($x=0; $x < $max_x; $x++) {
+            if($this->checkIfSplittable($x)) {
+                $splittableColumns = array_push($splittableColumns, $x);
+            }
+        }
+        return $splittableColumns;
+    }
+    private function checkIfSplittable($x) {
+        $this->table = new Tabelle();
+        $zelle = new Zelle();
+        $zellen = $this->table->getCells();
+        $max_y = $this->table->getMaxY();
+        $b_splittable = true;
+        for($y=0; $y < $max_y; $y++) {
+            
+            $zelle=$zellen[$y][$x];
+            if(!is_a($zelle, "Zelle")) {
+                $b_splittable = false;
+                break;
+            }
+        }
+        return $b_splittable;
     }
     
 
