@@ -1,0 +1,58 @@
+<root>
+    <Textabschnitt>
+        <A>
+            <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="7" aid:tcols="4">
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
+                    <THEAD_right>Nutzungsdauer  in Jahren</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
+                    <TBODY_left>Hardware </TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
+                    <TBODY_right>3</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
+                    <TBODY_left>Kraftfahrzeuge</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
+                    <TBODY_right>6</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
+                    <TBODY_left>Einbauten / Betriebsvorrichtungen</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
+                    <TBODY_right>10</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
+                    <TBODY_left>Möbel</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
+                    <TBODY_right>13</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
+                    <TBODY_left>Gebäude</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
+                    <TBODY_right>50</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+            </Tabelle>
+            </A>
+    </Textabschnitt>
+</root>

@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <Textabschnitt>
+        <A>
+            <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="14" aid:tcols="11">
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <THEAD_left>in Mio. €</THEAD_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right> 1 Mon.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right>1 – 3 Mon.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <THEAD_right>3 – 12 Mon.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right>12 Mon. –  4 J.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right> 4 J.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right>ohne feste T</THEAD_right>
+                    <THEAD_right>Laufzeit</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right>Gesamt</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Forderungen  an Kreditinstitute</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2014</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>1.062,2</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>170,4</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>260,5</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>1,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>1.494,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2013</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>1.236,2</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>274,9</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>130,2</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>2,5</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>1.643,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Forderungen  an Kunden</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2014</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>3.128,5</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>1.725,6</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>1.081,5</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>458,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>145,3</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>6.538,9</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2013</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>2.569,5</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>1.291,9</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>648,7</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>274,2</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>73,4</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>4.857,6</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Handelsaktiva / </TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2014</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>7.327,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>7.327,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2013</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>6.747,6</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>6.747,6</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Finanzanlagen</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2014</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>271,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31,4</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>173,9</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>2.451,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>2.662,9</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>293,2</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>5.883,4</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2013</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>255,1</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>51,3</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>393,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>2.779,6</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>1.423,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>222,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>5.124,8</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Sonstige Aktiva</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2014</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>7,4</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>9,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>187,5</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>204,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>31.12.2013</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>3,1</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>9,2</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>0,0</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>152,2</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>164,5</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left_bold>Insgesamt</TBODY_left_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>31.12.2014</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>11.796,9</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>1.927,4</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right_bold>1.524,8</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>2.910,8</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>2.808,2</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>480,7</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>21.448,9</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>31.12.2013</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>10.937,7</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>1.618,1</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right_bold>1.181,1</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>3.056,3</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>1.497,2</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>248,0</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>18.538,3</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+            </Tabelle></A></Textabschnitt></root>
