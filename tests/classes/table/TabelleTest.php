@@ -19,7 +19,7 @@ class TabelleTest extends PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $this->object = new Tabelle;
+        $this->object = new Tabelle(6,6);
     }
 
     /**
@@ -35,10 +35,7 @@ class TabelleTest extends PHPUnit_Framework_TestCase
      */
     public function testGetMaxX()
     {
-        // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-          'This test has not been implemented yet.'
-        );
+        $this->assertEquals(6, $this->object->getMaxX());
     }
 
     /**
@@ -46,10 +43,7 @@ class TabelleTest extends PHPUnit_Framework_TestCase
      */
     public function testGetMaxY()
     {
-        // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-          'This test has not been implemented yet.'
-        );
+        $this->assertEquals(6, $this->object->getMaxY());
     }
 
     /**
@@ -61,6 +55,7 @@ class TabelleTest extends PHPUnit_Framework_TestCase
         $this->markTestIncomplete(
           'This test has not been implemented yet.'
         );
+
     }
 
     /**
@@ -72,6 +67,7 @@ class TabelleTest extends PHPUnit_Framework_TestCase
         $this->markTestIncomplete(
           'This test has not been implemented yet.'
         );
+
     }
 
     /**
@@ -83,6 +79,7 @@ class TabelleTest extends PHPUnit_Framework_TestCase
         $this->markTestIncomplete(
           'This test has not been implemented yet.'
         );
+
     }
 
     /**

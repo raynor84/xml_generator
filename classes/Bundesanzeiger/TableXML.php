@@ -8,13 +8,15 @@ include('./classes/Bundesanzeiger/TableFormatter.php');
  * @author stefan
  */
 class TableXML {
+    private $table_node;
+    private $doc;
     
     
     public function createTableNode(Tabelle $table,  DOMDocument & $doc) {
         $this->doc = & $doc;
         $bundesanz = new TableFormatter();
 		
-        $bundesanz->structureTable($table);
+        $bundesanz->formatTable($table);
         
         $tables = $bundesanz->splitLargeTables($table);
         
@@ -23,7 +25,7 @@ class TableXML {
             $this->createCOLs($bundestable);
             $this->createTableHead($bundestable);
             $this->createTableBody($bundestable);
-            echo $bundestable->toHTML();
+            Debughelper::myecho($bundestable->toHTML());
         }
         return $this->table_node;
     }
@@ -62,10 +64,10 @@ class TableXML {
         
     }
     private function createTableRow($y, $table) {
-        $row_node = $this->table_node->lastChild->appendChild(
+        $this->table_node->lastChild->appendChild(
                 $this->doc->createElement("TR")
         		);
-        $cells = $table->getCells();
+        $table->getCells();
         $cell_count = $table->getMaxX();
 		$zellen = $table->getCells();
 		for($x=0; $x<=$cell_count;$x++) {
