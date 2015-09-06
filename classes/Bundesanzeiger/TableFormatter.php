@@ -7,14 +7,11 @@
  */
 class TableFormatter {
     //the table has to be converted, to suite the Restrictions of the Bundesanzeiger
-    private $bundesanz_tables=array();
-    private $table_node;
-    private $doc;
     CONST maxColls = 7;
     
     
     
-    public function structureTable($table) {
+    public function formatTable($table) {
     	$this->RemoveEmptyColumns($table);
     	$this->RemoveEmptyRows($table);
     	
