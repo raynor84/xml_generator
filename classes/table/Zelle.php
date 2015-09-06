@@ -93,4 +93,11 @@ class Zelle {
     public function getFormat() {
     	return $this->formatting;
     }
+    public function __clone() {
+        $this->align = clone $this->align;
+        $this->colspan = clone $this->colspan;
+        $this->formatting = clone $this->formatting;
+        $this->rowspan = clone $this->rowspan;
+        $this->value = clone $this->value;
+    }
 }

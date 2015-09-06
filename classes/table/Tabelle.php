@@ -1,5 +1,5 @@
 <?php
-require_once './classes/table/Zelle.php';
+require_once dirname(__FILE__) . '/Zelle.php';
 class Tabelle {
 	private $x_max;
 	private $y_max;
@@ -239,15 +239,40 @@ class Tabelle {
 	    	return $html;
 	    	
 	    }
-            public function deletefromColumn1toColumn2($x1, $x2) {
+            public function deleteColumnsExceptfromCol1toCol2($x_min, $x_max) {
+                if((!is_numeric($x_min))||(!is_numeric($x_max))) {
+                    die("x_min und x_max müssen Numerisch sein.");
+                } 
+                if($x_min > $x_max) {
+                    die("x_min muss größer als x_max sein.");
+                }
+                if($x_min-1 > 0) {
+                    $this->delColumn_x1tox2(0, $x_min-1);
+                }
+                if($x_max+1 < $this->getMaxX()) {
+                    $this->delColumn_x1tox2($x_max+1, $this->getMaxX());
+                }
+            }
+            
+            public function delColumn_x1tox2($x1, $x2) {
                 if(!((is_numeric($x1))&&(is_numeric($x2)))) {
                     die("fuer die Methode deleteColumns1toColumn2 muessen x1 und x2 numerisch sein.");
                 }
                 if($x2 < $x1) {
                     die("x2 muss groeßer sein als x1");
                 }
+                $x_max = $this->getMaxX();
+                if($x2 > $x_max) {
+                    die("x2($x2) darf nicht größer als x_max($x_max) sein.");
+                }
+                
+                
+                /*
+                 * todo: Refactoring
+                 */
                 $y_max = $this->getMaxY();
                 $cell = new Zelle();
+                
                 //column x1 sollte nicht mit vorheriger Spalte verbunden sein.
                 $skip = 0;
                 for($y=0; $y < $y_max; $y++) {
@@ -280,7 +305,10 @@ class Tabelle {
                 
                 //prüfen bei nächsten Spalte, ob Column2 mit einer Spalte außerhalb verbunden ist, 
                 //bzw. innerhalb von col1 und col2 eine Zelle mit einer Zelle außerhalb verbunden ist.
-                for($y=0; $y_max; $y++) {
+                for($y=0; $y < $y_max; $y++) {
+                    if($x2+1 > $x_max) {
+                        break;
+                    }
                     $cell = $this->zellen[$y][$x2+1];
                     if(($cell==false)&&($skip < 1)) {
                         
@@ -295,22 +323,27 @@ class Tabelle {
                             $skip = $rowspan -1;
                     }
                 }
+                
                 for($x=$x1; $x<=$x2; $x++) {
                     for($y=0; $y <=$y_max; $y++) {
-                        unset($this->zellen[$y][$x]);
+                        $zelle = new Zelle();
+                        $zelle->setColspan(1);
+                        $zelle->setRowspan(1);
+                        $zelle->setValue("NULL");
+                        $this->zellen[$y][$x] = $zelle;
                     }
                 }
-                $deletedColumns = $x1 - $x2 + 1;
-                $x_max = $this->getMaxX();
-                $this->setMaxX($x_max-$deletedColumns);
-                
+
+                for($x=$x1; $x<=$x2; $x2--) {
+                        $this->deleteColumn($x);
+                }
             }
             public function deleteColumn($x) {
 	    	if(!is_numeric($x)) {
 	    		die("fuer die Methode deleteColumn muss ein Numerischer Wert übergeben werden.");	
 	    	}
 	    	if($this->columnhascolspan($x)) {
-	    		die("Teile der Zellen sind mit Zellen von anderen Spalten verbunden.");
+	    		die("Teile der Zellen sind mit Zellen von anderen Spalten verbunden.($x)");
 	    	}
 	    		$y_max = $this->getMaxY();
 	    		for ($y=0; $y <= $y_max; $y++) {
@@ -332,7 +365,6 @@ class Tabelle {
 	    	
 	    	$max_y = $this->getMaxY();
 	    	for($i = $y; $i < $max_y; $i++) {
-				//echo $y;
 	    		$this->zellen[$i] = $this->zellen[$i+1];
 	    	}
 	    	unset($this->zellen[$max_y]);
@@ -370,6 +402,8 @@ class Tabelle {
 	    		$cell = $this->zellen[$y][$x];
 	    		
 	    		if(($cell == false)&&($skip < 1)) {
+                                    echo "test $y $x";
+                                    echo "Zelle: ".$this->zellen[$y][$x-1]->getValue();
 	    				return true;
 	    		
 	    		} else if(($cell == false)&&($skip >= 1)) {
@@ -399,7 +433,23 @@ class Tabelle {
 	    		$this->zellen[$y][$i] = $this->zellen[$y][$i+1];
 	    	}
 	    	unset($this->zellen[$y][$max_x]);
-	    }   
+	    } 
+            
+            public function __clone() {
+/*                $this->anz_headerzeilen = clone $this->anz_headerzeilen;
+                $this->anz_footerzeilen = clone $this->anz_footerzeilen;
+                $this->x_max = clone $this->x_max;
+                $this->y_max = clone $this->y_max;
+*/                $tmp_zellen = array();
+                foreach($this->zellen as $zelle) {
+                    if(!is_a($zelle, "Zelle")) {
+                        continue;
+                    }
+                    $tmp_zelle = clone $zelle;
+                    array_push($tmp_zellen, $tmp_zelle);
+                }
+                
+            }
 
 		/*
 		public function addColl(Integer $anzahl);
