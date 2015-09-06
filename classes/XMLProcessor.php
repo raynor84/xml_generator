@@ -1,7 +1,7 @@
 <?php
 	
 include ('./classes/table/Tabelle.php');
-include('./classes/Bundesanzeiger/Bundesanzeiger.php');
+include('./classes/Bundesanzeiger/TableXML.php');
 
 class XMLProcessor {
 	private static $output_doc;
@@ -174,7 +174,7 @@ class XMLProcessor {
         /*
          * Output
          */
-        $eBanXML = new Bundesanzeiger();
+        $eBanXML = new TableXML();
         $doc = & self::$output_doc;
         $tablenode = $eBanXML->createTableNode($table, $doc);
 		self::$output_doc->lastChild->appendChild(
@@ -224,7 +224,7 @@ class XMLProcessor {
 		else if (strpos($str_format,'right') !== false) {
 			return 'right';
 		}
-		else if (strpos($str_format,'left') !== false) {
+		else if (strpos($str_format,'center') !== false) {
 			return 'center';
 		}
 		else {
