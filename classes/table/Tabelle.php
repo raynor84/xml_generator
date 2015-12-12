@@ -244,12 +244,12 @@ class Tabelle {
                     die("x_min und x_max müssen Numerisch sein.");
                 } 
                 if($x_min > $x_max) {
-                    die("x_min muss größer als x_max sein.");
+                    die("x_min($x_min) muss größer als x_max($x_max) sein.");
                 }
-                if($x_min-1 > 0) {
+                if($x_min > 0) {
                     $this->delColumn_x1tox2(0, $x_min-1);
                 }
-                if($x_max+1 < $this->getMaxX()) {
+                if($x_max < $this->getMaxX()) {
                     $this->delColumn_x1tox2($x_max+1, $this->getMaxX());
                 }
             }
@@ -419,7 +419,6 @@ class Tabelle {
 	    			}
 	    		}
 	    	}
-	    	
 	    	return false;
 	    }
 	    

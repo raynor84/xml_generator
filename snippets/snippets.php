@@ -2,7 +2,7 @@
 /*
  * Refactor
 */
-private function setIndesignAlign($str_properties) {
+function setIndesignAlign($str_properties) {
 
 	if($str_properties=="THEAD") {
 		$this->set_align("left");

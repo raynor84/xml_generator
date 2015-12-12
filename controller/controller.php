@@ -30,21 +30,19 @@ class Controller{
 				//Generate View
 				$view->setTemplate('file_view');
 				$view->assign('title', $filename);
-                $view->assign('file', $filename);
+                                $view->assign('file', $filename);
 				break;
 			
-                        case 'view_product':
-                            
-                            break;
-                        
 			case 'overview':
 			default:
-            	$entries = Model::getXMLfiles();
-                
-            	//Generate View
-            	$view->setTemplate('overview');
-                $view->assign('entries', $entries);
+                            $entries = Model::getXMLfiles();
+
+                            //Generate View
+                            $view->setTemplate('overview');
+                            $view->assign('entries', $entries);
+                            break;
 		}
+                
                 $this->view->setTemplate('basic_template');
                 $this->view->assign('blog_title', 'Startseite');
                 $this->view->assign('blog_content', $view->loadTemplate());

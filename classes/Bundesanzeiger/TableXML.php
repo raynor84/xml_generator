@@ -8,7 +8,8 @@ include('./classes/Bundesanzeiger/TableFormatter.php');
  * @author stefan
  */
 class TableXML {
-    private $table_node;
+    private $table_nodes = array();
+    private $tmp_node;
     private $doc;
     
     
@@ -19,21 +20,24 @@ class TableXML {
         $bundesanz->formatTable($table);
         
         $tables = $bundesanz->splitLargeTables($table);
-        
+        //TODO: Refactor
         foreach($tables as $bundestable) {
-            $this->table_node = $doc->createElement( "TABLE" );
+            $this->tmp_node = $doc->createElement( "TABLE" );
             $this->createCOLs($bundestable);
             $this->createTableHead($bundestable);
             $this->createTableBody($bundestable);
             Debughelper::myecho($bundestable->toHTML());
+
+            array_push($this->table_nodes, $this->tmp_node);
+            
         }
-        return $this->table_node;
+        return $this->table_nodes;
     }
     
     private function createCOLs($table) {
         
         for($i = 0; $i <= $table->getMaxX(); $i++) {
-            $this->table_node->appendChild(
+            $this->tmp_node->appendChild(
                     $this->doc->createElement("COL")
             );
         }
@@ -43,7 +47,7 @@ class TableXML {
     	$anz_headerzeilen = $table->getAnzHeader();
     	
 	    	if($anz_headerzeilen > 0) {
-	        $this->table_node->appendChild(
+	        $this->tmp_node->appendChild(
 	                $this->doc->createElement("THEAD")
 	        );
 	        for($i=0; $i < $anz_headerzeilen;$i++) {
@@ -53,7 +57,7 @@ class TableXML {
     }
     
     private function createTableBody($table) {
-        $this->table_node->appendChild(
+        $this->tmp_node->appendChild(
                 $this->doc->createElement("TBODY")
         );
         $y_count = $table->getMaxY();
@@ -64,7 +68,7 @@ class TableXML {
         
     }
     private function createTableRow($y, $table) {
-        $this->table_node->lastChild->appendChild(
+        $this->tmp_node->lastChild->appendChild(
                 $this->doc->createElement("TR")
         		);
         $table->getCells();
@@ -82,30 +86,32 @@ class TableXML {
         $cell_node->setAttribute("align", $cell->getAlign());
         $cell_node->setAttribute("colspan", $cell->getColspan());
         $cell_node->setAttribute("rowspan", $cell->getRowspan());
+        
         if($cell->getValue()==NULL) {
         	$cell->setValue(" ");
         }
 		if($cell->getFormat()=="") {
-	        $cell_node->appendChild(
-	        	$this->doc->createTextNode($cell->getValue())
-	        );
+                    $doc = new DOMDocument();
+                    $fragment = $doc->createDocumentFragment();
+                    $fragment->appendXML($cell->getValue());
+                    $cell_node->appendChild($fragment);
 		} else {
-	        $textnode = $this->doc->createTextNode($cell->getValue());
-			if($cell->getFormat()=="bold") {
-				$format = $this->doc->createElement("b");				
-			} else if($cell->getFormat()=="italic") {
-				$format = $this->doc->createElement("i");
-			} else {
-				die("Das Format ist Bundesanzeiger->createCell nicht bekannt.");
-			}
-	        $format->appendChild($textnode);
-	        $cell_node->appendChild(
-	        	$format
-	        );
+                    $textnode = $this->doc->createTextNode($cell->getValue());
+                            if($cell->getFormat()=="bold") {
+                                    $format = $this->doc->createElement("b");				
+                            } else if($cell->getFormat()=="italic") {
+                                    $format = $this->doc->createElement("i");
+                            } else {
+                                    die("Das Format ist Bundesanzeiger->createCell nicht bekannt.");
+                            }
+                    $format->appendChild($textnode);
+                    $cell_node->appendChild($format);
         	
 		}
-		$this->table_node->lastChild->lastChild->appendChild($cell_node);
-		
+                //$this->table_node = new DOMElement();
+		$this->tmp_node->lastChild->lastChild->appendChild($cell_node);
+                //$this->doc = new DOMDocument();
+                //$this->doc->appendChild($cell_node);
         /*
          * reminder:
          * http://php.net/manual/de/domdocumentfragment.appendxml.php
@@ -116,7 +122,7 @@ class TableXML {
     }
      
     public function output() {
-        return $this->table_node;
+        return $this->table_nodes;
     }
     
 }

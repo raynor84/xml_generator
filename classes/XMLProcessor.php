@@ -171,15 +171,21 @@ class XMLProcessor {
         	
         }
         
+        
+        
         /*
          * Output
          */
         $eBanXML = new TableXML();
         $doc = & self::$output_doc;
-        $tablenode = $eBanXML->createTableNode($table, $doc);
+        $tablenodes = $eBanXML->createTableNode($table, $doc);
+        
+        foreach($tablenodes as $tablenode) {
 		self::$output_doc->lastChild->appendChild(
-                        $tablenode
+                    $tablenode
               );
+            
+        }
 		
 	}
 	

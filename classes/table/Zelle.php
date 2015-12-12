@@ -46,7 +46,9 @@ class Zelle {
 	public function setValue($value) {
 		if($value==NULL) {
 			$value = "";
-		}
+		} else if(trim($value)=="") {
+                    $value = trim($value);
+                }
 		$this->value = $value;
 	}
 	public function setFormat($format) {

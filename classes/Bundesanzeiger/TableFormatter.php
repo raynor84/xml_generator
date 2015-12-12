@@ -7,7 +7,7 @@
  */
 class TableFormatter {
     //the table has to be converted, to suite the Restrictions of the Bundesanzeiger
-    CONST maxColls = 7;
+    CONST maxColls = 6;
     
     
     
@@ -86,15 +86,16 @@ class TableFormatter {
     
     
     public function splitLargeTables($table) {
-        //check if large Table
+        //if not large table, push current table and return
         if(!$this->checkifLargeTable($table)) {
                 $tables = array();
                 array_push($tables, $table);
         	return $tables;
         }
+        
+        
         $max_x = $table->getMaxX();
 
-        
         //calculate seperated Tables
         $splittableColumns = $this->getSplittablesColumns($table);
         $col_min = 0;
@@ -104,12 +105,22 @@ class TableFormatter {
         $tabl_range = array();
         
         do {
+            //echo "col_min:".$col_min." col_max:".$col_max." <br />";
+            //echo "ben_tabellen:".$ben_tabellen."<br />";
             $col_max = $this->getClosest2MaxColl($splittableColumns, $col_min, $col_max, $table);
+            if($col_max == -1) {
+                echo "<span style=\"color:red\">";
+                echo "Couldn\'t split Table";
+                echo "</span>";
+                $col_max = $max_x;
+                array_push($tabl_range, array("col_min"=>$col_min, "col_max"=>$col_max));
+                break;
+            }
             array_push($tabl_range, array("col_min"=>$col_min, "col_max"=>$col_max));
                 
             $col_min = $col_max+1;
             $col_max = $col_min + self::maxColls;
-
+            
             if($col_max > $max_x) {
                 $col_max = $max_x;
             }

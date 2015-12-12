@@ -10,8 +10,8 @@ Class XMLTransformer {
      * returns an Array 
      */
 	public static function appendTemplate($tagname, $staticreference) {
-		if(!is_string($staticreference)) {
-			//example	:	call_user_func('MyClass::myCallbackMethod');
+		if(!is_string($staticreference)||(!is_string($tagname))) {
+			//example:call_user_func('MyClass::myCallbackMethod');
 			die( 'appendTemplate($tagname, $staticreference) '
 			 		.'$staticreference has to be a string like'
 					.'MyClass::MyMethod()');
@@ -19,7 +19,8 @@ Class XMLTransformer {
 		self::$templates[$tagname]=$staticreference;
 
 	}
-	public static function applyMatchingTemplate($node) {
+
+        public static function applyMatchingTemplate($node) {
 		// Type 2: Static class method call
 		foreach (self::$templates as $tag=>$function) {
 			if($node->getName()==$tag) {
@@ -41,34 +42,28 @@ Class XMLTransformer {
 		
 		return $xmlarray;
 	}
-    private static function readXML($xmlnode) {
-            $xmlarray = array();
-            
-            foreach ($xmlnode as $xmlobject) {
-            	$node = $xmlobject;
-            	self::applyMatchingTemplate($node);
-                
-                /*
-                 * Attributes
-                foreach($node->attributes() as $attribute_name=>$attribute_value) {
+        
+        
+        private static function readXML($xmlnode) {
+                $xmlarray = array();
 
-                    echo '['.$attribute_name.":".$attribute_value.'] <br />';
-                }
-                */
+                foreach ($xmlnode as $xmlobject) {
+                    $node = $xmlobject;
+                    self::applyMatchingTemplate($node);
 
-                /*
-                 * Output Children
-                 * 
-                */
-                if(($node->children()!=NULL) 
-                	&& (self::$tmp_recursion < self::$MAXRECURSION)) {
-                    	self::$tmp_recursion++;
-                		self::readXML($xmlobject->children());
-                    	self::$tmp_recursion--;
-                }//Node
-                
-            }//endif xmlnode
-    }
+                    /*
+                     * Output Children
+                     * 
+                    */
+                    if(($node->children()!=NULL) 
+                            && (self::$tmp_recursion < self::$MAXRECURSION)) {
+                            self::$tmp_recursion++;
+                                    self::readXML($xmlobject->children());
+                            self::$tmp_recursion--;
+                    }//Node
+
+                }//endif xmlnode
+        }
 }
 
 ?>
