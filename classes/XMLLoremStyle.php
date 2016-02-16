@@ -3,7 +3,7 @@
 include ('./classes/table/Tabelle.php');
 include('./classes/Bundesanzeiger/TableXML.php');
 
-class XMLProcessor {
+class XMLLoremStyle {
 	private static $output_doc;
         private static $html_result;
 	public static function init() {
@@ -304,3 +304,4 @@ class XMLProcessor {
 }
 
 ?>
+

@@ -6,7 +6,7 @@ include ('helper/Debughelper.php');
 
 // unsere Klassen einbinden
 include('controller/controller.php');
-include('model/model.php');
+include('model/XMLFileModel.php');
 include('view/view.php');
 
 // $_GET und $_POST zusammenfasen, $_COOKIE interessiert uns nicht.

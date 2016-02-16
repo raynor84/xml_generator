@@ -22,8 +22,9 @@ Class XMLTransformer {
 
         public static function applyMatchingTemplate($node) {
 		// Type 2: Static class method call
+            //$node= new DOMDocument();
 		foreach (self::$templates as $tag=>$function) {
-			if($node->getName()==$tag) {
+			if($node->nodeName==$tag) {
 				call_user_func($function, $node);
 				//return;
 			}
@@ -35,31 +36,35 @@ Class XMLTransformer {
 	public static function getXMLdata($filename){
 		$filepath = self::$directory.$filename;
 		
+                $dom = new DOMDocument();
+                $options = NULL;
+                $dom->substituteEntities = TRUE;
+                $dom->load($filepath);
+                self::$xmlparser = $dom;    //simplexml_load_file($filepath); 
+                
 		$xmlarray = Array();
-		self::$xmlparser = simplexml_load_file($filepath);
-		$xmlarray = self::readXML(self::$xmlparser);
-		XMLProcessor::output();
+                $xmlarray = self::readXML(self::$xmlparser->childNodes);
 		
 		return $xmlarray;
 	}
         
-        
+        private static function hasAppendedTemplates() {
+            return count(self::$templates) > 0 ? true:false;
+        }
         private static function readXML($xmlnode) {
-                $xmlarray = array();
+            if(!self::hasAppendedTemplates()) {
+                throw new RuntimeException("No Stylesheet-Templates Appended");
+            }
 
-                foreach ($xmlnode as $xmlobject) {
-                    $node = $xmlobject;
-                    self::applyMatchingTemplate($node);
-
-                    /*
-                     * Output Children
-                     * 
-                    */
-                    if(($node->children()!=NULL) 
-                            && (self::$tmp_recursion < self::$MAXRECURSION)) {
-                            self::$tmp_recursion++;
-                                    self::readXML($xmlobject->children());
-                            self::$tmp_recursion--;
+            foreach ($xmlnode as $node) {
+                    //$node = new DOMDocument();
+                self::applyMatchingTemplate($node);
+                    
+                    //Read Childrens
+                    if((!empty($node->childNodes)) && (self::$tmp_recursion < self::$MAXRECURSION)) {
+                        self::$tmp_recursion++;
+                        self::readXML($node->childNodes);
+                        self::$tmp_recursion--;
                     }//Node
 
                 }//endif xmlnode

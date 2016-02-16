@@ -43,7 +43,7 @@ class TableFormatter {
     }
     
     private function checkifColumnsAreEmpty($x, $table) {
-    	//Debughelper::myecho($x."<br />");
+
         $zellen = $table->getCells();
         $y_max = $table->getMaxY();
     	for ($y=0; $y < $y_max; $y++) {

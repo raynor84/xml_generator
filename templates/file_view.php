@@ -1,12 +1,8 @@
     <h2><?php echo $this->_['title']; ?></h2>
     <a href="?view=overview">Zur&uuml;ck zur &Uuml;bersicht</a>
+    <hr />
     <p>
-            <?php 
-
-            require_once './templates/recursivetemplates/view_xmlfiles.php';
-            readxml($this->_['file']);
-
-            ?>
+        <?php echo $this->_['xmlview']; ?>
     </p>
     <hr />
     <p>

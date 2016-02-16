@@ -11,6 +11,8 @@ class Controller{
 	 * @param Array $request Array aus $_GET & $_POST.
 	 */
 	public function __construct($request){
+            
+                //Fetch Request and Determine View
 		$this->view = new View();
 		$this->request = $request;
 		$this->template = !empty($request['view']) ? $request['view'] : 'overview';
@@ -26,16 +28,17 @@ class Controller{
 		switch($this->template){
 			case 'file_view':
 				$filename = $this->request['filename'];
-				
+				$xmlview = XMLFileModel::readxml($filename);
 				//Generate View
 				$view->setTemplate('file_view');
 				$view->assign('title', $filename);
                                 $view->assign('file', $filename);
+                                $view->assign('xmlview', $xmlview);
 				break;
 			
 			case 'overview':
 			default:
-                            $entries = Model::getXMLfiles();
+                            $entries = XMLFileModel::getXMLfiles();
 
                             //Generate View
                             $view->setTemplate('overview');
@@ -43,6 +46,8 @@ class Controller{
                             break;
 		}
                 
+                
+                //Standard Output
                 $this->view->setTemplate('basic_template');
                 $this->view->assign('blog_title', 'Startseite');
                 $this->view->assign('blog_content', $view->loadTemplate());

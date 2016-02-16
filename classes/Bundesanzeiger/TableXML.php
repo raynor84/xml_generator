@@ -26,7 +26,6 @@ class TableXML {
             $this->createCOLs($bundestable);
             $this->createTableHead($bundestable);
             $this->createTableBody($bundestable);
-            Debughelper::myecho($bundestable->toHTML());
 
             array_push($this->table_nodes, $this->tmp_node);
             
@@ -87,31 +86,32 @@ class TableXML {
         $cell_node->setAttribute("colspan", $cell->getColspan());
         $cell_node->setAttribute("rowspan", $cell->getRowspan());
         
-        if($cell->getValue()==NULL) {
-        	$cell->setValue(" ");
-        }
-		if($cell->getFormat()=="") {
-                    $doc = new DOMDocument();
-                    $fragment = $doc->createDocumentFragment();
-                    $fragment->appendXML($cell->getValue());
-                    $cell_node->appendChild($fragment);
-		} else {
-                    $textnode = $this->doc->createTextNode($cell->getValue());
-                            if($cell->getFormat()=="bold") {
-                                    $format = $this->doc->createElement("b");				
-                            } else if($cell->getFormat()=="italic") {
-                                    $format = $this->doc->createElement("i");
-                            } else {
-                                    die("Das Format ist Bundesanzeiger->createCell nicht bekannt.");
-                            }
-                    $format->appendChild($textnode);
-                    $cell_node->appendChild($format);
-        	
-		}
-                //$this->table_node = new DOMElement();
-		$this->tmp_node->lastChild->lastChild->appendChild($cell_node);
-                //$this->doc = new DOMDocument();
-                //$this->doc->appendChild($cell_node);
+            if($cell->getValue()==NULL) {
+                return;
+            }
+            if($cell->getFormat()=="") {
+                $fragment = $this->doc->createDocumentFragment();
+                $fragment->appendXML($cell->getValue());
+                $cell_node->appendChild($fragment);
+            } else {
+                $fragment = $this->doc->createDocumentFragment();
+                $fragment->appendXML($cell->getValue());
+                    if($cell->getFormat()=="bold") {
+                            $format = $this->doc->createElement("b");				
+                    } else if($cell->getFormat()=="italic") {
+                            $format = $this->doc->createElement("i");
+                    } else {
+                            die("Das Format ist Bundesanzeiger->createCell nicht bekannt.");
+                    }
+                $format->appendChild($fragment);
+                $cell_node->appendChild($format);
+
+            }
+            //$this->table_node = new DOMElement();
+            $this->tmp_node->lastChild->lastChild->appendChild($cell_node);
+            //$this->doc = new DOMDocument();
+            //$this->doc->appendChild($cell_node);
+
         /*
          * reminder:
          * http://php.net/manual/de/domdocumentfragment.appendxml.php
