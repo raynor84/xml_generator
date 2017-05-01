@@ -95,7 +95,7 @@ class TableFormatter {
         
         
         $max_x = $table->getMaxX();
-
+		
         //calculate seperated Tables
         $splittableColumns = $this->getSplittablesColumns($table);
         $col_min = 0;
@@ -105,8 +105,6 @@ class TableFormatter {
         $tabl_range = array();
         
         do {
-            //echo "col_min:".$col_min." col_max:".$col_max." <br />";
-            //echo "ben_tabellen:".$ben_tabellen."<br />";
             $col_max = $this->getClosest2MaxColl($splittableColumns, $col_min, $col_max, $table);
             if($col_max == -1) {
                 echo "<span style=\"color:red\">";

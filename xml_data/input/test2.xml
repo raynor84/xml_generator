@@ -17,7 +17,8 @@
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.37007874015748"><TBODY>14</TBODY></Zelle>
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.37007874015748"><TBODY>15</TBODY></Zelle>
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.37007874015748"><TBODY>16</TBODY></Zelle>
-            </Tabelle>  </A>
+            </Tabelle>  
+        </A>
 
-            </Textabschnitt>
-            </Root>
+    </Textabschnitt>
+</Root>

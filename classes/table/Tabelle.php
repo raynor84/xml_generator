@@ -14,7 +14,7 @@ class Tabelle {
 
     public function __construct($x_max, $y_max) {
         if (!is_numeric($x_max) || (!is_numeric($y_max))) {
-            throw new InvalidArgumentException("x_max und y_max müssen einen Wert enthalten");
+            throw new InvalidArgumentException("x_max=$x_max und y_max=$y_max müssen einen Wert enthalten");
         }
 
         $x_max = intval($x_max) - 1; //for-loop

@@ -1,58 +1,381 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root>
     <Textabschnitt>
         <A>
-            <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="7" aid:tcols="4">
+            <Tabelle xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="14" aid:tcols="11">
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
-                    <THEAD_right>Nutzungsdauer  in Jahren</THEAD_right>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <THEAD_left>in Mio. €</THEAD_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right> 1 Mon.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right>1 – 3 Mon.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <THEAD_right>3 – 12 Mon.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right>12 Mon. –  4 J.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right> 4 J.</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right>ohne feste T</THEAD_right>
+                    <THEAD_right>Laufzeit</THEAD_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <THEAD_right>Gesamt</THEAD_right>
                 </Zelle>
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
-                    <TBODY_left>Hardware </TBODY_left>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Forderungen  an Kreditinstitute</TBODY_left>
                 </Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
-                    <TBODY_right>3</TBODY_right>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
                 </Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
-                    <TBODY_left>Kraftfahrzeuge</TBODY_left>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
                 </Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
-                    <TBODY_right>6</TBODY_right>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
                 </Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
-                    <TBODY_left>Einbauten / Betriebsvorrichtungen</TBODY_left>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>xxx,x</TBODY_right>
                 </Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
-                    <TBODY_right>10</TBODY_right>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
                 </Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
-                    <TBODY_left>Möbel</TBODY_left>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
                 </Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
-                    <TBODY_right>13</TBODY_right>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
                 </Zelle>
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693">
-                    <TBODY_left>Gebäude</TBODY_left>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
                 </Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779">
-                    <TBODY_right>50</TBODY_right>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
                 </Zelle>
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="141.73228346456693"></Zelle>
-                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="69.44881889763779"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Forderungen  an Kunden</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>x.xxx,</TBODY_right>x
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
                 <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
-            </Tabelle>
-            </A>
-    </Textabschnitt>
-</root>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Handelsaktiva / </TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Finanzanlagen</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x.xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left>Sonstige Aktiva</TBODY_left>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xx.xx.xxxx</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>x,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right>xxx,x</TBODY_right>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203">
+                    <TBODY_left_bold>Insgesamt</TBODY_left_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>xx.xx.xxxx</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>xx.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>x.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right_bold>x.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>x.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>x.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>xx.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>xx.xx.xxxx</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>xx.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>x.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208">
+                    <TBODY_right_bold>x.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>x.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>x.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955">
+                    <TBODY_right_bold>xx.xxx,x</TBODY_right_bold>
+                </Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="87.30708661399203"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.97194094488208"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="46.488188976377955"></Zelle>
+                <Zelle aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="11.338582677165356"></Zelle>
+            </Tabelle></A></Textabschnitt></root>

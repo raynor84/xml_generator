@@ -1,5 +1,6 @@
 {
 	"require" : {
-		"soothsilver/dtd-parser" : "0.1.0"
+		"soothsilver/dtd-parser" : "0.1.0",
+                "phpunit/phpunit" : "4.7.*"
 	}
 }

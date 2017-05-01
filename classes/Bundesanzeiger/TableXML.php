@@ -21,6 +21,7 @@ class TableXML {
         
         $tables = $bundesanz->splitLargeTables($table);
         //TODO: Refactor
+        XMLProcessor::appendHTML("<h2>Splitted Table</h2>");
         foreach($tables as $bundestable) {
             $this->tmp_node = $doc->createElement( "TABLE" );
             $this->createCOLs($bundestable);
@@ -28,7 +29,7 @@ class TableXML {
             $this->createTableBody($bundestable);
 
             array_push($this->table_nodes, $this->tmp_node);
-            
+			XMLProcessor::appendHTML($bundestable->toHtml());
         }
         return $this->table_nodes;
     }
@@ -90,9 +91,7 @@ class TableXML {
                 return;
             }
             if($cell->getFormat()=="") {
-                $fragment = $this->doc->createDocumentFragment();
-                $fragment->appendXML($cell->getValue());
-                $cell_node->appendChild($fragment);
+					$cell_node->nodeValue = $cell->getValue();
             } else {
                 $fragment = $this->doc->createDocumentFragment();
                 $fragment->appendXML($cell->getValue());

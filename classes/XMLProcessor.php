@@ -26,7 +26,9 @@ class XMLProcessor {
             self::$output_doc =$dom;
 	}
 
-	
+	public static function appendHTML($string) {
+		self::$html_result .= $string;
+	}
 	/*
 	 * 
 	 * Ausgabe
@@ -53,6 +55,7 @@ class XMLProcessor {
 	 * Absatz
 	 */
 	public static function Absatz($node) {
+            
 		//Create Element and Append it to output-Dom
 		$absatz = self::$output_doc->createElement( "A" );
 		self::$output_doc->lastChild->appendChild( $absatz );
@@ -60,83 +63,94 @@ class XMLProcessor {
 		$absatz->appendChild(
 				self::$output_doc->createTextNode( $node->nodeValue )
 		);
-		self::$html_result.="<p>".$node->nodeValue."</p>";
+		self::$html_result.="<p>".$node."</p>";
                 
 	}
 	/*
 	 * Absatz
 	 */
 	public static function Berichtsteil($node) {
+            
 		$absatz = self::$output_doc->createElement( "BerichtsteilUeberschrift" );
 		self::$output_doc->lastChild->appendChild( $absatz );
 		$absatz->appendChild(
 				self::$output_doc->createTextNode( $node->nodeValue )
 		);
-		self::$html_result.="<h2>".$node->nodeValue."</h2>";
+		self::$html_result.="<h2>".$node."</h2>";
 	}
 	/*
 	 * Zwischentitel
 	 */
 	public static function Zwischentitel($node) {
+            
 		$absatz = self::$output_doc->createElement( "Zwischentitel" );
 		self::$output_doc->lastChild->appendChild( $absatz );
 		$absatz->appendChild(
 				self::$output_doc->createTextNode( $node->nodeValue )
 		);
-		self::$html_result.="<h3>".$node->nodeValue."</h3>";
+		self::$html_result.="<h3>".$node."</h3>";
 	}
         
 	/*
 	 * Liste
 	*/ 
 	public static function Liste($node) {
+            
 		$absatz = self::$output_doc->createElement( "A" );
 		self::$output_doc->lastChild->appendChild( $absatz );
 		$absatz->appendChild(
 				self::$output_doc->createTextNode( " • ".$node->nodeValue )
 		);
-		self::$html_result.="<p>"." • ".$node->nodeValue."</p>";
+		self::$html_result.="<p>"." • ".$node."</p>";
+                
 	}
     /*
 	 * Kursiv
 	 */
 	public static function Kursiv($node) {
+            
 		$absatz = self::$output_doc->createElement( "i" );
 		self::$output_doc->lastChild->lastChild->appendChild( $absatz );
 		$absatz->appendChild(
 				self::$output_doc->createTextNode( $node->nodeValue )
 		);
-		self::$html_result.="<i>".$node->nodeValue."</i>";
+		self::$html_result.="<i>".$node."</i>";
+                
 	}
 	/*
 	 * Bold
 	 */
 	public static function Bold($node) {
+            
 		$absatz = self::$output_doc->createElement( "b" );
 		self::$output_doc->lastChild->lastChild->appendChild( $absatz );
 		$absatz->appendChild(
 				self::$output_doc->createTextNode( $node->nodeValue )
 		);
-		self::$html_result.="<b>".$node->nodeValue."</b>";
+		self::$html_result.="<b>".$node."</b>";
+                
 	}
 
 	/*
 	 * LTitel
 	 */
 	public static function LTitel($node) {
+            
 		$absatz = self::$output_doc->createElement( "L-Titel" );
 		self::$output_doc->lastChild->appendChild( $absatz );
                 
 		$absatz->appendChild(self::$output_doc->createTextNode( $node->nodeValue ));
+                
 	}
 	
 	/*
 	 * Tabelle
 	 */
-	public static function initTabelle(DOMElement $node) {
-            $max_x = $node->getAttribute("aid:tcols");
-            $max_y = $node->getAttribute("aid:trows");
+	public static function initTabelle(SimpleXMLElement $node) {
 
+		$attribute = $node->attributes("aid",true);
+		$max_x = intval($attribute["tcols"]);
+		$max_y = intval($attribute["trows"]);
             $table = new Tabelle($max_x, $max_y);
 
             //for looping with iterator - $x and $y
@@ -170,6 +184,7 @@ class XMLProcessor {
             /*
              * Output
              */
+            self::$html_result.= $table->toHTML();	
             $eBanXML = new TableXML();
             $doc = & self::$output_doc;
             $tablenodes = $eBanXML->createTableNode($table, $doc);
@@ -177,15 +192,15 @@ class XMLProcessor {
             foreach($tablenodes as $tablenode) {
                 self::$output_doc->lastChild->appendChild($tablenode);
             }
-            self::$html_result.= $table->toHTML();	
+            
 	}
 	
-	public static function Zelle(DOMElement $cell) {
+	public static function Zelle(SimpleXMLElement $cell) {
 		
-                $cols = $cell->getAttribute("aid:ccols");
-                $rows = $cell->getAttribute("aid:crows");
-
-                //Default values
+		$attributes = $cell->attributes("aid", true);
+		$cols = intval($attributes["ccols"]);
+		$rows = intval($attributes["crows"]);
+		//Default values
 		$align="left";
 		$format="";
 		$value="";
@@ -215,6 +230,7 @@ class XMLProcessor {
 	}
 	
 	public static function getAlignment($str_format) {
+            
 		if (strpos($str_format,'left') !== false) {
 			return 'left';
 		}
@@ -227,8 +243,10 @@ class XMLProcessor {
 		else {
 			return 'left';
 		}
+                
 	}
 	public static function getFormat($str_format) {
+            
 		if (strpos($str_format, 'bold')) {
 			return 'bold';
 		} else if(strpos($str_format, 'italic')) {
@@ -236,9 +254,11 @@ class XMLProcessor {
 		} else {
 			return '';
 		}
+                
 	}
 	
 	public static function getZeilentyp($str_format) {
+            
 		if(strpos($str_format, 'THEAD')) {
 			return 'THEAD';
 		} else if(strpos($str_format, 'TBODY')) {
@@ -246,6 +266,7 @@ class XMLProcessor {
 		} else {
 			return 'TBODY';
 		}
+                
 	}
         
         /**
@@ -264,6 +285,7 @@ class XMLProcessor {
         * @license CC-BY-3.0 <http://spdx.org/licenses/CC-BY-3.0>
         */
     private static function node2array($xmlnode, $recursion = null) {
+        
     	$xmlarray = array();
         foreach ($xmlnode as $xmlobject) {
         	$tagname = $xmlobject->getName();
@@ -293,14 +315,17 @@ class XMLProcessor {
             }
 		}
     	return $xmlarray;
+        
     }
     
     private static function xml2array ( $xmlObject, $out = array () ) {
-    foreach ( (array) $xmlObject as $index => $node ) {
-        $out[$index] = ( is_object ( $node ) ) ? self::xml2array ( $node ) : $node;
-    }
-    return $out;
-}
+        
+        foreach ( (array) $xmlObject as $index => $node ) {
+            $out[$index] = ( is_object ( $node ) ) ? self::xml2array ( $node ) : $node;
+        }
+        return $out;
+
+    }  
 }
 
 ?>
